@@ -1,0 +1,6 @@
+Given the tree from question 2, write a script in Javascript that, given a string, will return the full name of any item containing that text.  EG:
+
+# node q3.js cats
+animals.cats.tabby
+animals.cats.siamese
+

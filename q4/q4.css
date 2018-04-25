@@ -1,0 +1,21 @@
+.square { 
+    border: 50px solid red;
+    position: relative;
+    text-align: center;
+    width: 50%;
+  }
+
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+  border-radius: 0.1em;
+  border: 5px solid black;
+}
+
+.squareBlack { 
+    border: 5px solid black;
+    position: relative;
+    text-align: center;
+    width: 14.3%;
+  }

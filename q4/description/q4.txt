@@ -1,0 +1,23 @@
+In a modern browser, present several ways to use HTML and CSS to create a white square exactly centered inside another larger red square, as shown in q4image.png.
+
+ .square { 
+    border: 5px solid red;
+    position: relative;
+    text-align: center;
+    width: 50%;
+  }
+
+  .square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+  .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    font-size: 2em;
+    padding-top: 20%;
+  }

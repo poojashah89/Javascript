@@ -1,0 +1,17 @@
+Write a Windows application or script (for example using AutoIT) that performs the following steps:
+
+1. Open the windows services manager (services.msc)
+2. For each service in the list, extract and print the following data:
+  - service name
+  - service description
+  - service status
+
+
+HINTS:
+
+a. run as administrator to use automation on the services app
+b. the "standard" tab in the services manager uses standard Windows controls
+
+http://www.thewindowsclub.com/generate-list-of-windows-services-using-powershell
+
+powershell : No windows environment
